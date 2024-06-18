@@ -1,0 +1,8 @@
+conda create -n facematch python=3.11
+
+conda activate facematch
+
+conda deactivate
+
+uvicorn api:app --port 8090 --host 0.0.0.0 --reload
+

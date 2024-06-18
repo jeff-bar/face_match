@@ -1,0 +1,19 @@
+# Python specific
+*.pyc
+__pycache__/
+
+# CPython
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python env
+venv/
+ENV/
+
+# Visual Studio Code specific files
+.vscode/
+
+# Ignore files in recognition/models/ directory
+recognition/models/*
